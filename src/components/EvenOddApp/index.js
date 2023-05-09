@@ -7,7 +7,8 @@ class EvenOddApp extends Component {
   state = {count: 0}
 
   IncrementButtonText = () => {
-    Math.ceil(Math.random() * 100)
+    const num =    Math.ceil(Math.random() * 100)
+    return num
   }
 
   incrementButton = () => {
